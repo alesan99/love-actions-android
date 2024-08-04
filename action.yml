@@ -141,7 +141,7 @@ runs:
       uses: actions/setup-java@v4
       with:
         distribution: adopt
-        java-version: "11"
+        java-version: "17"
     - name: Checkout love-android
       uses: actions/checkout@v4
       with:
